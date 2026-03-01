@@ -14,7 +14,7 @@ public class EmailService {
     public void enviarCodigo(String email, String codigo) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(email);
-        message.setSubject("Recuperação de Senha - Sistema de Pedidos");
+        message.setSubject("Recuperação de Senha");
         message.setText("""
                 Olá!
                 
